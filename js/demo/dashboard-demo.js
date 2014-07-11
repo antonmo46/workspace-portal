@@ -1,6 +1,6 @@
 $(function () {
 
-    Morris.Area({
+    /*Morris.Area({
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
@@ -74,7 +74,7 @@ $(function () {
             value: 20
         }],
         resize: true
-    });
+    }); */
 
     Morris.Bar({
         element: 'morris-bar-chart',
