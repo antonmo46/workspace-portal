@@ -729,7 +729,7 @@
     Line.prototype.defaults = {
       lineWidth: 3,
       pointSize: 4,
-      lineColors: ['#0b62a4', '#7A92A3', '#4da74d', '#afd8f8', '#edc240', '#cb4b4b', '#9440ed'],
+      lineColors: ['#B84D45', '#7CB47C', '#4da74d', '#afd8f8', '#edc240', '#cb4b4b', '#9440ed'],
       pointStrokeWidths: [1],
       pointStrokeColors: ['#ffffff'],
       pointFillColors: [],
