@@ -1,0 +1,273 @@
+{
+  "actions" : [
+    {
+      "parameters" : [
+        {
+          "name" : "TESTOPIA",
+          "value" : "D:\\BVT"
+        },
+        {
+          "name" : "BRANCH",
+          "value" : "develop"
+        }
+      ]
+    },
+    {
+      "causes" : [
+        {
+          "shortDescription" : "Started by upstream project \"MARSEILLE - (7) Deploy Marseille\" build number 296",
+          "upstreamBuild" : 296,
+          "upstreamProject" : "MARSEILLE - (7) Deploy Marseille",
+          "upstreamUrl" : "job/MARSEILLE%20-%20(7)%20Deploy%20Marseille/"
+        }
+      ]
+    },
+    {
+      "buildsByBranchName" : {
+        "origin/Hackathon2014q2" : {
+          "buildNumber" : 164,
+          "buildResult" : null,
+          "marked" : {
+            "SHA1" : "698c0d8c93ec655c58185a000c5c215931b5f2df",
+            "branch" : [
+              {
+                "SHA1" : "698c0d8c93ec655c58185a000c5c215931b5f2df",
+                "name" : "origin/Hackathon2014q2"
+              }
+            ]
+          },
+          "revision" : {
+            "SHA1" : "698c0d8c93ec655c58185a000c5c215931b5f2df",
+            "branch" : [
+              {
+                "SHA1" : "698c0d8c93ec655c58185a000c5c215931b5f2df",
+                "name" : "origin/Hackathon2014q2"
+              }
+            ]
+          }
+        },
+        "origin/develop" : {
+          "buildNumber" : 198,
+          "buildResult" : null,
+          "marked" : {
+            "SHA1" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+            "branch" : [
+              {
+                "SHA1" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+                "name" : "origin/develop"
+              }
+            ]
+          },
+          "revision" : {
+            "SHA1" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+            "branch" : [
+              {
+                "SHA1" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+                "name" : "origin/develop"
+              }
+            ]
+          }
+        },
+        "origin/serial" : {
+          "buildNumber" : 105,
+          "buildResult" : null,
+          "marked" : {
+            "SHA1" : "c37f8a70e22ddcacb186af93e347c0e8a3f8dd69",
+            "branch" : [
+              {
+                "SHA1" : "c37f8a70e22ddcacb186af93e347c0e8a3f8dd69",
+                "name" : "origin/serial"
+              }
+            ]
+          },
+          "revision" : {
+            "SHA1" : "c37f8a70e22ddcacb186af93e347c0e8a3f8dd69",
+            "branch" : [
+              {
+                "SHA1" : "c37f8a70e22ddcacb186af93e347c0e8a3f8dd69",
+                "name" : "origin/serial"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision" : {
+        "SHA1" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+        "branch" : [
+          {
+            "SHA1" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+            "name" : "origin/develop"
+          }
+        ]
+      },
+      "remoteUrls" : [
+        "git@github.com:buuteeqInc/qa.git"
+      ],
+      "scmName" : ""
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      "failCount" : 31,
+      "skipCount" : 0,
+      "totalCount" : 160,
+      "urlName" : "testReport"
+    },
+    {
+      
+    }
+  ],
+  "artifacts" : [
+    
+  ],
+  "building" : false,
+  "description" : null,
+  "duration" : 3486422,
+  "estimatedDuration" : -1,
+  "executor" : null,
+  "fullDisplayName" : "MARSEILLE - (8) Run LookEngine BVT - QA DEVELOP (default) #198",
+  "id" : "2014-07-01_19-24-13",
+  "keepLog" : false,
+  "number" : 198,
+  "result" : "FAILURE",
+  "timestamp" : 1404267853000,
+  "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/198/",
+  "builtOn" : "Build",
+  "changeSet" : {
+    "items" : [
+      {
+        "affectedPaths" : [
+          "LookEngineBVT/BlueprintTest.cs"
+        ],
+        "commitId" : "370d4fdad8d27267fca196c5cfae622da0b69668",
+        "timestamp" : 1404249948000,
+        "author" : {
+          "absoluteUrl" : "http://jenkins.buuteeq.com/user/hngo",
+          "fullName" : "hngo"
+        },
+        "comment" : "Fixed Sweet_941\n",
+        "date" : "2014-07-01 14:25:48 -0700",
+        "id" : "370d4fdad8d27267fca196c5cfae622da0b69668",
+        "msg" : "Fixed Sweet_941",
+        "paths" : [
+          {
+            "editType" : "edit",
+            "file" : "LookEngineBVT/BlueprintTest.cs"
+          }
+        ]
+      },
+      {
+        "affectedPaths" : [
+          "Tools/FindTestOwners.py",
+          "Tools/CreateJiraTasksForFailedTests.py",
+          "qaportal/buuteeq/buuteeq/oauth/views.py",
+          "BVTTest/Pages/PanoramaPage.cs"
+        ],
+        "commitId" : "437e283dd41dc9655c4a092a42abdebda0b10c26",
+        "timestamp" : 1404255745000,
+        "author" : {
+          "absoluteUrl" : "http://jenkins.buuteeq.com/user/Eric",
+          "fullName" : "Eric Hu"
+        },
+        "comment" : "Python script to create bugs in Test project and assign to testcase owner in JIRA when BVT test fail\n",
+        "date" : "2014-07-01 16:02:25 -0700",
+        "id" : "437e283dd41dc9655c4a092a42abdebda0b10c26",
+        "msg" : "Python script to create bugs in Test project and assign to testcase owner in JIRA when BVT test fail",
+        "paths" : [
+          {
+            "editType" : "edit",
+            "file" : "BVTTest/Pages/PanoramaPage.cs"
+          },
+          {
+            "editType" : "edit",
+            "file" : "Tools/FindTestOwners.py"
+          },
+          {
+            "editType" : "edit",
+            "file" : "qaportal/buuteeq/buuteeq/oauth/views.py"
+          },
+          {
+            "editType" : "add",
+            "file" : "Tools/CreateJiraTasksForFailedTests.py"
+          }
+        ]
+      },
+      {
+        "affectedPaths" : [
+          "Tools/CreateJiraTasksForFailedTests.py"
+        ],
+        "commitId" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+        "timestamp" : 1404257123000,
+        "author" : {
+          "absoluteUrl" : "http://jenkins.buuteeq.com/user/Eric",
+          "fullName" : "Eric Hu"
+        },
+        "comment" : "no message\n",
+        "date" : "2014-07-01 16:25:23 -0700",
+        "id" : "ed294822b49e802f457b8bd7f22810ef989d0512",
+        "msg" : "no message",
+        "paths" : [
+          {
+            "editType" : "edit",
+            "file" : "Tools/CreateJiraTasksForFailedTests.py"
+          }
+        ]
+      }
+    ],
+    "kind" : "git"
+  },
+  "culprits" : [
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/Ching",
+      "fullName" : "Ching Chang"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/Eric",
+      "fullName" : "Eric Hu"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/akoh",
+      "fullName" : "akoh"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/anton",
+      "fullName" : "anton"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/bingrong",
+      "fullName" : "bingrong"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/hngo",
+      "fullName" : "hngo"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/jacky",
+      "fullName" : "jacky"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/jaden@buuteeq.com",
+      "fullName" : "Jaden Chen"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/jialongwang",
+      "fullName" : "jialongwang"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/sebastian",
+      "fullName" : "sebastian"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/shane",
+      "fullName" : "shane"
+    },
+    {
+      "absoluteUrl" : "http://jenkins.buuteeq.com/user/tingyi@buuteeq.com",
+      "fullName" : "tingyi"
+    }
+  ]
+}

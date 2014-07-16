@@ -1,0 +1,209 @@
+{
+  "actions" : [
+    {
+      "parameterDefinitions" : [
+        {
+          "defaultParameterValue" : {
+            "value" : "D:\\BVT"
+          },
+          "description" : "",
+          "name" : "TESTOPIA",
+          "type" : "StringParameterDefinition"
+        },
+        {
+          "defaultParameterValue" : {
+            "value" : "develop"
+          },
+          "description" : "Branch to checkout from the QA repository.",
+          "name" : "BRANCH",
+          "type" : "StringParameterDefinition"
+        }
+      ]
+    },
+    {
+      
+    }
+  ],
+  "description" : "",
+  "displayName" : "MARSEILLE - (8) Run LookEngine BVT - QA DEVELOP (default)",
+  "displayNameOrNull" : null,
+  "name" : "MARSEILLE - (8) Run LookEngine BVT - QA DEVELOP (default)",
+  "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/",
+  "buildable" : true,
+  "builds" : [
+    {
+      "number" : 206,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/206/"
+    },
+    {
+      "number" : 205,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/205/"
+    },
+    {
+      "number" : 204,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/204/"
+    },
+    {
+      "number" : 203,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/203/"
+    },
+    {
+      "number" : 202,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/202/"
+    },
+    {
+      "number" : 201,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/201/"
+    },
+    {
+      "number" : 200,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/200/"
+    },
+    {
+      "number" : 199,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/199/"
+    },
+    {
+      "number" : 198,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/198/"
+    },
+    {
+      "number" : 197,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/197/"
+    },
+    {
+      "number" : 196,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/196/"
+    },
+    {
+      "number" : 195,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/195/"
+    },
+    {
+      "number" : 194,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/194/"
+    },
+    {
+      "number" : 193,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/193/"
+    },
+    {
+      "number" : 192,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/192/"
+    },
+    {
+      "number" : 191,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/191/"
+    },
+    {
+      "number" : 190,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/190/"
+    },
+    {
+      "number" : 189,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/189/"
+    },
+    {
+      "number" : 188,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/188/"
+    },
+    {
+      "number" : 187,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/187/"
+    },
+    {
+      "number" : 186,
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/186/"
+    }
+  ],
+  "color" : "aborted_anime",
+  "firstBuild" : {
+    "number" : 186,
+    "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/186/"
+  },
+  "healthReport" : [
+    {
+      "description" : "Build stability: All recent builds failed.",
+      "iconUrl" : "health-00to19.png",
+      "score" : 0
+    },
+    {
+      "description" : "Test Result: 6 tests failing out of a total of 25 tests.",
+      "iconUrl" : "health-60to79.png",
+      "score" : 76
+    }
+  ],
+  "inQueue" : false,
+  "keepDependencies" : false,
+  "lastBuild" : {
+    "number" : 206,
+    "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/206/"
+  },
+  "lastCompletedBuild" : {
+    "number" : 205,
+    "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/205/"
+  },
+  "lastFailedBuild" : {
+    "number" : 200,
+    "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/200/"
+  },
+  "lastStableBuild" : null,
+  "lastSuccessfulBuild" : null,
+  "lastUnstableBuild" : null,
+  "lastUnsuccessfulBuild" : {
+    "number" : 205,
+    "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(8)%20Run%20LookEngine%20BVT%20-%20QA%20DEVELOP%20(default)/205/"
+  },
+  "nextBuildNumber" : 207,
+  "property" : [
+    {
+      
+    },
+    {
+      "parameterDefinitions" : [
+        {
+          "defaultParameterValue" : {
+            "name" : "TESTOPIA",
+            "value" : "D:\\BVT"
+          },
+          "description" : "",
+          "name" : "TESTOPIA",
+          "type" : "StringParameterDefinition"
+        },
+        {
+          "defaultParameterValue" : {
+            "name" : "BRANCH",
+            "value" : "develop"
+          },
+          "description" : "Branch to checkout from the QA repository.",
+          "name" : "BRANCH",
+          "type" : "StringParameterDefinition"
+        }
+      ]
+    }
+  ],
+  "queueItem" : null,
+  "concurrentBuild" : false,
+  "downstreamProjects" : [
+    {
+      "name" : "Port BVT Test results to Testopia",
+      "url" : "http://jenkins.buuteeq.com/job/Port%20BVT%20Test%20results%20to%20Testopia/",
+      "color" : "blue"
+    },
+    {
+      "name" : "Run BookEngine BVT Test",
+      "url" : "http://jenkins.buuteeq.com/job/Run%20BookEngine%20BVT%20Test/",
+      "color" : "red"
+    }
+  ],
+  "scm" : {
+    
+  },
+  "upstreamProjects" : [
+    {
+      "name" : "MARSEILLE - (7) Deploy Marseille",
+      "url" : "http://jenkins.buuteeq.com/job/MARSEILLE%20-%20(7)%20Deploy%20Marseille/",
+      "color" : "blue"
+    }
+  ]
+}
