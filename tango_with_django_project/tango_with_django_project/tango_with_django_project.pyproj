@@ -225,6 +225,7 @@
     <Content Include="templates\qaportal\index2.html" />
     <Content Include="templates\qaportal\index3.html" />
     <Content Include="templates\qaportal\index4.html" />
+    <Content Include="templates\qaportal\nav.html" />
     <Content Include="templates\rango\about.html" />
     <Content Include="templates\rango\category.html" />
     <Content Include="templates\rango\code_coverage.html" />

@@ -8,17 +8,21 @@ import xml.etree.cElementTree as etree
 
 # Create your views here.
 def index(request):
-    delete_file()
     context = RequestContext(request)
-    tree = etree.parse("{0}/qaportal/logs/clover.xml".format(SETTINGS.PROJECT_PATH))
-    root = tree.getroot()
-    metric = root[0][0]
-    
-    metrics_list = []
-    metrics_list.append({"statements":metric.get('statements'),"coveredstatements":metric.get('coveredstatements')})
+    return render_to_response('qaportal/index.html', context)
 
-    context_dict = {'metrics_list': metrics_list}
-    return render_to_response('qaportal/index1.html', context_dict, context)
+def index2(request):
+    context = RequestContext(request)
+    context_dict = {}
+    return render_to_response('qaportal/index2.html',context_dict,context)
+def index3(request):
+    context = RequestContext(request)
+    context_dict = {}
+    return render_to_response('qaportal/index3.html',context_dict, context)
+def index4(request):
+    context = RequestContext(request)
+    context_dict = {}
+    return render_to_response('qaportal/index4.html',context_dict, context)
 
 # helper method for code_coverage view
 def delete_file():
@@ -26,3 +30,16 @@ def delete_file():
     #if files.count < 10:
     #    return
     #os.remove("{0}/qaportal/logs/{1}".format(SETTINGS.PROJECT_PATH, files[0]))
+
+#def load_view(request):
+#    delete_file()
+#    context = RequestContext(request)
+#    tree = etree.parse("{0}/qaportal/logs/clover.xml".format(SETTINGS.PROJECT_PATH))
+#    root = tree.getroot()
+#    metric = root[0][0]
+    
+#    metrics_list = []
+#    metrics_list.append({"statements":metric.get('statements'),"coveredstatements":metric.get('coveredstatements')})
+
+#    context_dict = {'metrics_list': metrics_list}
+#    return render_to_response('qaportal/index1.html', context_dict, context)

@@ -12,7 +12,8 @@ from django.contrib.auth.models import User, Group
 admin.autodiscover() # UNCOMMENT THIS LINE, TOO!
 
 urlpatterns = patterns('',
-        url(r'^$', include('qaportal.urls')),                
+        url(r'^$', include('qaportal.urls')),
+        url(r'^index(\d{1}).html', include('qaportal.urls')),              
         url(r'^rango/', include('rango.urls')),
         url(r'^admin/', include(admin.site.urls)),
         )
