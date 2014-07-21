@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>tango_with_django_project</Name>
+    <RootNamespace>tango_with_django_project</RootNamespace>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>500fa8e7-1372-4a67-be85-1ab0cbb25ee5</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="populate_rango.py" />
+    <Compile Include="qaportal\admin.py" />
+    <Compile Include="qaportal\models.py" />
+    <Compile Include="qaportal\tests.py" />
+    <Compile Include="qaportal\urls.py" />
+    <Compile Include="qaportal\views.py" />
+    <Compile Include="qaportal\__init__.py" />
+    <Compile Include="rango\admin.py" />
+    <Compile Include="rango\models.py" />
+    <Compile Include="rango\tests.py" />
+    <Compile Include="rango\urls.py" />
+    <Compile Include="rango\views.py" />
+    <Compile Include="rango\__init__.py" />
+    <Compile Include="tango_with_django_project\__init__.py" />
+    <Compile Include="tango_with_django_project\settings.py" />
+    <Compile Include="tango_with_django_project\urls.py" />
+    <Compile Include="tango_with_django_project\wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebPiReference Include="https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml%3fDjango">
+      <Feed>https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml</Feed>
+      <ProductId>Django</ProductId>
+      <FriendlyName>Django 1.4</FriendlyName>
+    </WebPiReference>
+    <WebPiReference Include="https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml%3fPython27">
+      <Feed>https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml</Feed>
+      <ProductId>Python27</ProductId>
+      <FriendlyName>Python 2.7</FriendlyName>
+    </WebPiReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="qaportal\" />
+    <Folder Include="qaportal\logs\" />
+    <Folder Include="static\" />
+    <Folder Include="static\bootstrap\" />
+    <Folder Include="static\bootstrap\chartjs\" />
+    <Folder Include="static\bootstrap\chartjs\docs\" />
+    <Folder Include="static\bootstrap\chartjs\samples\" />
+    <Folder Include="static\bootstrap\chartjs\src\" />
+    <Folder Include="static\bootstrap\css\" />
+    <Folder Include="static\bootstrap\css\plugins\" />
+    <Folder Include="static\bootstrap\css\plugins\dataTables\" />
+    <Folder Include="static\bootstrap\css\plugins\morris\" />
+    <Folder Include="static\bootstrap\css\plugins\social-buttons\" />
+    <Folder Include="static\bootstrap\css\plugins\timeline\" />
+    <Folder Include="static\bootstrap\data\" />
+    <Folder Include="static\bootstrap\font-awesome\" />
+    <Folder Include="static\bootstrap\font-awesome\css\" />
+    <Folder Include="static\bootstrap\font-awesome\fonts\" />
+    <Folder Include="static\bootstrap\font-awesome\less\" />
+    <Folder Include="static\bootstrap\font-awesome\scss\" />
+    <Folder Include="static\bootstrap\fonts\" />
+    <Folder Include="static\bootstrap\js\" />
+    <Folder Include="static\bootstrap\js\demo\" />
+    <Folder Include="static\bootstrap\js\plugins\" />
+    <Folder Include="static\bootstrap\js\plugins\dataTables\" />
+    <Folder Include="static\bootstrap\js\plugins\flot\" />
+    <Folder Include="static\bootstrap\js\plugins\metisMenu\" />
+    <Folder Include="static\bootstrap\js\plugins\morris\" />
+    <Folder Include="static\bootstrap\media\" />
+    <Folder Include="templates\" />
+    <Folder Include="rango\" />
+    <Folder Include="tango_with_django_project\" />
+    <Folder Include="templates\qaportal\" />
+    <Folder Include="templates\rango\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="qaportal\logs\bingrong1490.xml" />
+    <Content Include="qaportal\logs\book.xml" />
+    <Content Include="qaportal\logs\clover.xml" />
+    <Content Include="static\bootstrap\.gitignore" />
+    <Content Include="static\bootstrap\blank.html" />
+    <Content Include="static\bootstrap\buttons.html" />
+    <Content Include="static\bootstrap\chartjs\.gitignore" />
+    <Content Include="static\bootstrap\chartjs\bower.json" />
+    <Content Include="static\bootstrap\chartjs\Chart.js" />
+    <Content Include="static\bootstrap\chartjs\Chart.min.js" />
+    <Content Include="static\bootstrap\chartjs\docs\00-Getting-Started.md" />
+    <Content Include="static\bootstrap\chartjs\docs\01-Line-Chart.md" />
+    <Content Include="static\bootstrap\chartjs\docs\02-Bar-Chart.md" />
+    <Content Include="static\bootstrap\chartjs\docs\03-Radar-Chart.md" />
+    <Content Include="static\bootstrap\chartjs\docs\04-Polar-Area-Chart.md" />
+    <Content Include="static\bootstrap\chartjs\docs\05-Pie-Doughnut-Chart.md" />
+    <Content Include="static\bootstrap\chartjs\docs\06-Advanced.md" />
+    <Content Include="static\bootstrap\chartjs\docs\07-Notes.md" />
+    <Content Include="static\bootstrap\chartjs\gulpfile.js" />
+    <Content Include="static\bootstrap\chartjs\LICENSE.md" />
+    <Content Include="static\bootstrap\chartjs\package.json" />
+    <Content Include="static\bootstrap\chartjs\README.md" />
+    <Content Include="static\bootstrap\chartjs\samples\bar.html" />
+    <Content Include="static\bootstrap\chartjs\samples\doughnut.html" />
+    <Content Include="static\bootstrap\chartjs\samples\line.html" />
+    <Content Include="static\bootstrap\chartjs\samples\pie.html" />
+    <Content Include="static\bootstrap\chartjs\samples\polar-area.html" />
+    <Content Include="static\bootstrap\chartjs\samples\radar.html" />
+    <Content Include="static\bootstrap\chartjs\src\Chart.Bar.js" />
+    <Content Include="static\bootstrap\chartjs\src\Chart.Core.js" />
+    <Content Include="static\bootstrap\chartjs\src\Chart.Doughnut.js" />
+    <Content Include="static\bootstrap\chartjs\src\Chart.Line.js" />
+    <Content Include="static\bootstrap\chartjs\src\Chart.PolarArea.js" />
+    <Content Include="static\bootstrap\chartjs\src\Chart.Radar.js" />
+    <Content Include="static\bootstrap\css\bootstrap.css" />
+    <Content Include="static\bootstrap\css\bootstrap.min.css" />
+    <Content Include="static\bootstrap\css\navbar.css" />
+    <Content Include="static\bootstrap\css\plugins\dataTables\dataTables.bootstrap.css" />
+    <Content Include="static\bootstrap\css\plugins\morris\morris-0.4.3.min.css" />
+    <Content Include="static\bootstrap\css\plugins\social-buttons\social-buttons.css" />
+    <Content Include="static\bootstrap\css\plugins\timeline\timeline.css" />
+    <Content Include="static\bootstrap\css\sb-admin.css" />
+    <Content Include="static\bootstrap\css\style.css" />
+    <Content Include="static\bootstrap\data\build_details.json" />
+    <Content Include="static\bootstrap\data\build_overall.json" />
+    <Content Include="static\bootstrap\data\code_coverage.xml" />
+    <Content Include="static\bootstrap\data\project_overall.json" />
+    <Content Include="static\bootstrap\flot.html" />
+    <Content Include="static\bootstrap\font-awesome\css\font-awesome.css" />
+    <Content Include="static\bootstrap\font-awesome\css\font-awesome.min.css" />
+    <Content Include="static\bootstrap\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="static\bootstrap\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="static\bootstrap\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="static\bootstrap\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="static\bootstrap\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="static\bootstrap\font-awesome\less\bordered-pulled.less" />
+    <Content Include="static\bootstrap\font-awesome\less\core.less" />
+    <Content Include="static\bootstrap\font-awesome\less\fixed-width.less" />
+    <Content Include="static\bootstrap\font-awesome\less\font-awesome.less" />
+    <Content Include="static\bootstrap\font-awesome\less\icons.less" />
+    <Content Include="static\bootstrap\font-awesome\less\larger.less" />
+    <Content Include="static\bootstrap\font-awesome\less\list.less" />
+    <Content Include="static\bootstrap\font-awesome\less\mixins.less" />
+    <Content Include="static\bootstrap\font-awesome\less\path.less" />
+    <Content Include="static\bootstrap\font-awesome\less\rotated-flipped.less" />
+    <Content Include="static\bootstrap\font-awesome\less\spinning.less" />
+    <Content Include="static\bootstrap\font-awesome\less\stacked.less" />
+    <Content Include="static\bootstrap\font-awesome\less\variables.less" />
+    <Content Include="static\bootstrap\font-awesome\scss\font-awesome.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_core.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_icons.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_larger.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_list.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_mixins.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_path.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_spinning.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_stacked.scss" />
+    <Content Include="static\bootstrap\font-awesome\scss\_variables.scss" />
+    <Content Include="static\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\bootstrap\forms.html" />
+    <Content Include="static\bootstrap\grid.html" />
+    <Content Include="static\bootstrap\index.html" />
+    <Content Include="static\bootstrap\index1.html" />
+    <Content Include="static\bootstrap\index2.html" />
+    <Content Include="static\bootstrap\index3.html" />
+    <Content Include="static\bootstrap\index4.html" />
+    <Content Include="static\bootstrap\js\bootstrap.js" />
+    <Content Include="static\bootstrap\js\bootstrap.min.js" />
+    <Content Include="static\bootstrap\js\demo\build-demo.js" />
+    <Content Include="static\bootstrap\js\demo\dashboard-demo.js" />
+    <Content Include="static\bootstrap\js\demo\flot-demo.js" />
+    <Content Include="static\bootstrap\js\demo\morris-demo.js" />
+    <Content Include="static\bootstrap\js\jquery-1.10.2.js" />
+    <Content Include="static\bootstrap\js\plugins\dataTables\dataTables.bootstrap.js" />
+    <Content Include="static\bootstrap\js\plugins\dataTables\jquery.dataTables.js" />
+    <Content Include="static\bootstrap\js\plugins\flot\excanvas.min.js" />
+    <Content Include="static\bootstrap\js\plugins\flot\jquery.flot.js" />
+    <Content Include="static\bootstrap\js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="static\bootstrap\js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="static\bootstrap\js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="static\bootstrap\js\plugins\metisMenu\jquery.metisMenu.js" />
+    <Content Include="static\bootstrap\js\plugins\morris\morris.js" />
+    <Content Include="static\bootstrap\js\plugins\morris\raphael-2.1.0.min.js" />
+    <Content Include="static\bootstrap\js\sb-admin.js" />
+    <Content Include="static\bootstrap\login.html" />
+    <Content Include="static\bootstrap\media\failMe_failed.jpg" />
+    <Content Include="static\bootstrap\morris.html" />
+    <Content Include="static\bootstrap\notifications.html" />
+    <Content Include="static\bootstrap\panels-wells.html" />
+    <Content Include="static\bootstrap\readme.txt" />
+    <Content Include="static\bootstrap\sb-admin-v2.zip" />
+    <Content Include="static\bootstrap\tables.html" />
+    <Content Include="static\bootstrap\typography.html" />
+    <Content Include="static\bootstrap\Web.config" />
+    <Content Include="templates\qaportal\base.html" />
+    <Content Include="templates\qaportal\category.html" />
+    <Content Include="templates\qaportal\index.html" />
+    <Content Include="templates\qaportal\index1.html" />
+    <Content Include="templates\qaportal\index2.html" />
+    <Content Include="templates\qaportal\index3.html" />
+    <Content Include="templates\qaportal\index4.html" />
+    <Content Include="templates\rango\about.html" />
+    <Content Include="templates\rango\category.html" />
+    <Content Include="templates\rango\code_coverage.html" />
+    <Content Include="templates\rango\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
